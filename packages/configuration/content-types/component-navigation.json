@@ -26,7 +26,7 @@
         }],
         "cards": [
         {
-            "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
+            "templatedUri":"https://elastic-brattain-aa01ea.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
         }]
     },
     "repositories": ["navigation"]
