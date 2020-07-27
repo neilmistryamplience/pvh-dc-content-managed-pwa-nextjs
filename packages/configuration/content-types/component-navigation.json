@@ -29,5 +29,5 @@
             "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
         }]
     },
-    "repositories": ["content"]
+    "repositories": ["navigation"]
 }
