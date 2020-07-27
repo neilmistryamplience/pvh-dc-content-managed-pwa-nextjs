@@ -1,0 +1,20 @@
+{
+    "contentTypeUri": "https://anyafinn.dev/page-slot.json",
+    "settings":
+    {
+        "label": "Page Slot",
+        "visualizations": [
+        {
+            "label": "JSON",
+            "templatedUri":"https://presalesadisws.s3.eu-west-1.amazonaws.com/dynamic-content/dc-visualization-content-delivery/index.html?vse={{vse.domain}}&id={{content.sys.id}}&format=inlined&depth=all&v2=true",
+            "default": true
+        }],
+        "icons": [
+        {
+            "size": 256,
+            "url": "https://bigcontent.io/cms/icons/bond/bond-bannercopy.png"
+        }],
+        "cards": []
+    },
+    "repositories": ["slots"]
+}

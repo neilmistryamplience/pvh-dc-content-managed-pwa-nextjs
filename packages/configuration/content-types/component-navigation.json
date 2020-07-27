@@ -1,0 +1,33 @@
+{
+    "contentTypeUri": "https://anyafinn.dev/component-navigation.json",
+    "settings":
+    {
+        "label": "Navigation",
+        "visualizations": [
+        {
+            "label": "PWA (Netlify)",
+            "templatedUri":"https://elated-perlman-0bacdb.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "default": true
+        },
+        {
+            "label": "PWA (Localhost)",
+            "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "default": false
+        },
+        {
+            "label": "JSON",
+            "templatedUri":"https://presalesadisws.s3.eu-west-1.amazonaws.com/dynamic-content/dc-visualization-content-delivery/index.html?vse={{vse.domain}}&id={{content.sys.id}}&format=inlined&depth=all&v2=true",
+            "default": false
+        }],
+        "icons": [
+        {
+            "size": 256,
+            "url": "https://bigcontent.io/cms/icons/bond/bond-extblock.png"
+        }],
+        "cards": [
+        {
+            "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
+        }]
+    },
+    "repositories": ["content"]
+}
