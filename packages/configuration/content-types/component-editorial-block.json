@@ -6,7 +6,7 @@
         "visualizations": [
         {
             "label": "PWA (Netlify)",
-            "templatedUri":"https://elated-perlman-0bacdb.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "templatedUri":"https://elastic-brattain-aa01ea.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
             "default": true
         },
         {
