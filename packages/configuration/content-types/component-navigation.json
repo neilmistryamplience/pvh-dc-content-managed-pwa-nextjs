@@ -6,7 +6,7 @@
         "visualizations": [
         {
             "label": "PWA (Netlify)",
-            "templatedUri":"https://elastic-brattain-aa01ea.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "templatedUri":"https://silly-hopper-8ba3a1.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
             "default": true
         },
         {
@@ -26,8 +26,8 @@
         }],
         "cards": [
         {
-            "templatedUri":"https://elastic-brattain-aa01ea.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
+            "templatedUri":"https://silly-hopper-8ba3a1.netlify.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
         }]
     },
-    "repositories": ["navigation"]
+    "repositories": ["content"]
 }
