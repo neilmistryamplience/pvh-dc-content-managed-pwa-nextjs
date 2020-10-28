@@ -211,7 +211,7 @@ Once deployed you may also choose to ammend / add additional options for visuali
 
 Click on the button below to deploy this repository via Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/neilmistryamplience/dc-content-managed-pwa-nextjs/tree/partners/bounteous)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/neilmistryamplience/pvh-dc-content-managed-pwa-nextjs/tree/master)
 
 
 Areas of change:
